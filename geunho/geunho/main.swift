@@ -8,9 +8,10 @@
 import Foundation
 
 // MARK: - Result
-print(mergeAlternately("abc", "qpr"))
-print(mergeAlternately2("abc", "qpr"))
+//print(mergeAlternately("abc", "qpr"))
+//print(mergeAlternately2("abc", "qpr"))
 
+print(kidsWithCandies([2,8,7], 1))
 
 
 
