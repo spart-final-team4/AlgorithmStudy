@@ -83,3 +83,17 @@ func Test() {
     
     print(arr1.withUnsafeBufferPointer { $0.baseAddress } as Any)
 }
+
+/// 단락평가: 최종 결과가 결정되자마자 부울 표현식의 평가가 중단
+func shortCircuitEvaluation() {
+    let arr = [1, 2, 3]
+
+    // ✅ 안전: ||(OR) - 첫 번째 조건이 true이면 두 번째 평가 안 함
+    let test1 = (0 == 0) || (arr[-1] == 0)  // true (오류 안남!)
+    
+    // ✅ 안전: &&(AND) - 첫 번째 조건이 false이면 두 번째 평가 안함
+    let test2 = (0 != 0) && (arr[-1] == 0) // true
+
+    // ❌ 위험: 왼쪽이 false라서 오른쪽 평가함
+//    let test3 = (0 == 1) || (arr[-1] == 0)  // 런타임 에러!
+}

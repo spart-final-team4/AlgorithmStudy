@@ -16,3 +16,8 @@ import Foundation
 
 print(canPlaceFlowers([0,0,1,0,0], 1))
 print(canPlaceFlowers1([0,0,1,0,0], 1))
+
+shortCircuitEvaluation()
+
+print(reverseVowels("a a"))
+print(reverseVowelTwoPointer("leetCode"))
