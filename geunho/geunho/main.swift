@@ -22,4 +22,8 @@ import Foundation
 //print(reverseVowels("a a"))
 //print(reverseVowelTwoPointer("leetCode"))
 
-print(climbStairs(6))
+//print(climbStairs(6))
+
+var arr = [0,1,0,3,12]
+moveZeroes(&arr)
+moveZeroes1(&arr)
