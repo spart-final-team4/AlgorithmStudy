@@ -28,4 +28,6 @@ import Foundation
 //moveZeroes(&arr)
 //moveZeroes1(&arr)
 
-print(reverseWords(" hello world "))
+//print(reverseWords(" hello world "))
+
+print(productExceptSelf([5,6,3,4]))
