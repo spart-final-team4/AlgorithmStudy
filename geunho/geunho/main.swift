@@ -24,6 +24,8 @@ import Foundation
 
 //print(climbStairs(6))
 
-var arr = [0,1,0,3,12]
-moveZeroes(&arr)
-moveZeroes1(&arr)
+//var arr = [0,1,0,3,12]
+//moveZeroes(&arr)
+//moveZeroes1(&arr)
+
+print(reverseWords(" hello world "))
