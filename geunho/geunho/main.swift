@@ -30,4 +30,6 @@ import Foundation
 
 //print(reverseWords(" hello world "))
 
-print(productExceptSelf([5,6,3,4]))
+//print(productExceptSelf([5,6,3,4]))
+
+print(increasingTriplet([2,1,5,0,4,6]))
