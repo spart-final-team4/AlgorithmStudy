@@ -32,4 +32,11 @@ import Foundation
 
 //print(productExceptSelf([5,6,3,4]))
 
-print(increasingTriplet([2,1,5,0,4,6]))
+//print(increasingTriplet([2,1,5,0,4,6]))
+
+//print(isSubsequence("abc", "ahbgdc"))
+
+//print(findMaxAverage([1,12,-5,-6,50,3], 4))
+//print(maxVowels1("abciiidef", 3))
+//print(longestOnes([1,1,1,1,0,0,0,0,1,1,1], 2))
+print(longestSubarray([1,1,0,1]))
