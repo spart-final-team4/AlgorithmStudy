@@ -43,5 +43,9 @@ import Foundation
 
 //print(largestAltitude([-5,1,5,0,-7]
 //))
-print(pivotIndex([1,7,3,6,5,6]))
-print(pivotIndex1([1,7,3,6,5,6]))
+//print(pivotIndex([1,7,3,6,5,6]))
+//print(pivotIndex1([1,7,3,6,5,6]))
+//print(findDifference1([1,2,3], [2,4,6]))
+//print(uniqueOccurrences1([1,2,3,1,1,3,3]))
+//print(closeStrings("aa", "a"))
+print(equalPairs1([[3,2,1],[1,7,6],[2,7,7]]))
