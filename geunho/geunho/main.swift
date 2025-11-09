@@ -48,4 +48,7 @@ import Foundation
 //print(findDifference1([1,2,3], [2,4,6]))
 //print(uniqueOccurrences1([1,2,3,1,1,3,3]))
 //print(closeStrings("aa", "a"))
-print(equalPairs1([[3,2,1],[1,7,6],[2,7,7]]))
+//print(equalPairs1([[3,2,1],[1,7,6],[2,7,7]]))
+
+print(removeStars1("leet**cod*e"))
+print(asteroidCollision([3,5,-6,2,-1,4]))
