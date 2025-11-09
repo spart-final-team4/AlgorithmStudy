@@ -39,4 +39,9 @@ import Foundation
 //print(findMaxAverage([1,12,-5,-6,50,3], 4))
 //print(maxVowels1("abciiidef", 3))
 //print(longestOnes([1,1,1,1,0,0,0,0,1,1,1], 2))
-print(longestSubarray([1,1,0,1]))
+//print(longestSubarray([1,1,0,1]))
+
+//print(largestAltitude([-5,1,5,0,-7]
+//))
+print(pivotIndex([1,7,3,6,5,6]))
+print(pivotIndex1([1,7,3,6,5,6]))
