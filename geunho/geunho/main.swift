@@ -50,5 +50,7 @@ import Foundation
 //print(closeStrings("aa", "a"))
 //print(equalPairs1([[3,2,1],[1,7,6],[2,7,7]]))
 
-print(removeStars1("leet**cod*e"))
-print(asteroidCollision([3,5,-6,2,-1,4]))
+//print(removeStars1("leet**cod*e"))
+//print(asteroidCollision([3,5,-6,2,-1,4]))
+
+print(decodeString("3[a]2[bc]"))
