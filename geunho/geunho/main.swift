@@ -53,4 +53,7 @@ import Foundation
 //print(removeStars1("leet**cod*e"))
 //print(asteroidCollision([3,5,-6,2,-1,4]))
 
-print(decodeString("3[a]2[bc]"))
+//print(decodeString("3[a]2[bc]"))
+
+var chars: [Character] = ["a","a","b","b","c","c","c"]
+print(compress(&chars))
