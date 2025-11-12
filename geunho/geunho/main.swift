@@ -55,5 +55,7 @@ import Foundation
 
 //print(decodeString("3[a]2[bc]"))
 
-var chars: [Character] = ["a","a","b","b","c","c","c"]
-print(compress(&chars))
+//var chars: [Character] = ["a","a","b","b","c","c","c"]
+//print(compress(&chars))
+//print(maxArea([1,8,6,2,5,4,8,3,7]))
+print(maxOperations([1,2,3,4], 4))
