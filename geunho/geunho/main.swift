@@ -58,4 +58,10 @@ import Foundation
 //var chars: [Character] = ["a","a","b","b","c","c","c"]
 //print(compress(&chars))
 //print(maxArea([1,8,6,2,5,4,8,3,7]))
-print(maxOperations([1,2,3,4], 4))
+//print(maxOperations([1,2,3,4], 4))
+
+let obj = RecentCounter()
+let ret1 = obj.ping(1)
+let ret2 = obj.ping(100)
+let ret3 = obj.ping(3001)
+let ret4 = obj.ping(3002)
