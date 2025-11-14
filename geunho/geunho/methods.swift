@@ -19,3 +19,31 @@ func bufferAddress(of string: String) -> String {
         return "\(ptr)"
     }
 }
+
+/// 배열을 LinkedList로 변환
+func createLinkedList(_ values: [Int]) -> ListNode? {
+    guard !values.isEmpty else { return nil }
+    
+    let head = ListNode(values[0])
+    var current = head
+    
+    for i in 1..<values.count {
+        current.next = ListNode(values[i])
+        current = current.next!
+    }
+    
+    return head
+}
+
+/// Linked List 출력
+func printLinkedList(_ head: ListNode?) {
+    var current = head
+    var result = [String]()
+    
+    while current != nil {
+        result.append("\(current!.val)")
+        current = current?.next
+    }
+    
+    print(result.joined(separator: " -> "))
+}

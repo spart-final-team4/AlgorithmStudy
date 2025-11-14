@@ -66,4 +66,29 @@ import Foundation
 //let ret3 = obj.ping(3001)
 //let ret4 = obj.ping(3002)
 
-print(predictPartyVictory("RRDDD"))
+//print(predictPartyVictory("RRDDD"))
+//
+//let node1 = ListNode(1)
+//let node2 = ListNode(2)
+//let node3 = ListNode(3)
+//node1.next = node2
+//node2.next = node3
+//let linkedList = node1
+//deleteMiddle(linkedList)
+//
+//var current: ListNode? = linkedList
+//var result = [String]()
+//while current != nil {
+//    result.append("\(current!.val)")
+//    current = current?.next
+//}
+//print(result.joined(separator: " → "))
+//
+//printLinkedList(linkedList)
+
+let linkedList = createLinkedList([1,2,3,4,5])
+//let oddEven = oddEvenList(linkedList)
+//printLinkedList(oddEven)
+
+let reverse = reverseList(linkedList)
+printLinkedList(reverse)
