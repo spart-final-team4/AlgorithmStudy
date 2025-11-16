@@ -86,9 +86,11 @@ import Foundation
 //
 //printLinkedList(linkedList)
 
-let linkedList = createLinkedList([1,2,3,4,5])
+let linkedList = createLinkedList([5,4,2,1])
 //let oddEven = oddEvenList(linkedList)
 //printLinkedList(oddEven)
 
-let reverse = reverseList(linkedList)
-printLinkedList(reverse)
+//let reverse = reverseList(linkedList)
+//printLinkedList(reverse)
+
+print(pairSum(linkedList))
