@@ -92,6 +92,11 @@ import Foundation
 //printLinkedList(reverse)
 //print(pairSum(linkedList))
 
-let values = [3,9,20,nil,nil,15,7]
-let node = createTreeNode(values)
-print(maxDepth(node))
+//let values = [3,9,20,nil,nil,15,7]
+//let node = createTreeNode(values)
+//print(maxDepth(node))
+
+let root = [1,7,0,7,-8,nil,nil]
+let node = createTreeNode(root)
+//print(rightSideView1(node))
+print(maxLevelSum(node))
