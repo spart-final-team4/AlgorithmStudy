@@ -47,3 +47,37 @@ func printLinkedList(_ head: ListNode?) {
     
     print(result.joined(separator: " -> "))
 }
+
+/// 배열을 TreeNode로 변환 (BFS)
+/// Queue 사용: 부모 노드들 순서대로 처리
+/// Index 추적: 배열의 어디를 읽고 있는지 추적
+/// 각 노드마다 2개씩: 왼쪽 자식, 오른쪽 자식 순서로 배열 읽기
+/// nil 처리: nil이면 자식을 만들지 않고 건너 뜀
+func createTreeNode(_ values: [Int?]) -> TreeNode? {
+    guard !values.isEmpty, let firstVal = values[0] else { return nil }
+    
+    // 루트 노드 설정
+    let root = TreeNode(firstVal)
+    var queue: [TreeNode] = [root]
+    var index = 1 // 1 부터 시작
+    
+    while !queue.isEmpty && index < values.count {
+        // 제일 앞 꺼냄
+        let node = queue.removeFirst()
+        
+        // 왼쪽 자식
+        if index < values.count, let leftVal = values[index] {
+            node.left = TreeNode(leftVal)
+            queue.append(node.left!) // Queue에 추가
+        }
+        index += 1 // 인덱스 증가
+        
+        // 오른쪽 자식
+        if index < values.count, let rightVal = values[index] {
+            node.right = TreeNode(rightVal)
+            queue.append(node.right!) // Queue에 추가
+        }
+        index += 1 // 인덱스 증가
+    }
+    return root
+}
