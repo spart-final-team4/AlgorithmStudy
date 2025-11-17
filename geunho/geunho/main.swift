@@ -67,7 +67,7 @@ import Foundation
 //let ret4 = obj.ping(3002)
 
 //print(predictPartyVictory("RRDDD"))
-//
+
 //let node1 = ListNode(1)
 //let node2 = ListNode(2)
 //let node3 = ListNode(3)
@@ -85,12 +85,13 @@ import Foundation
 //print(result.joined(separator: " → "))
 //
 //printLinkedList(linkedList)
-
-let linkedList = createLinkedList([5,4,2,1])
+//let linkedList = createLinkedList([5,4,2,1])
 //let oddEven = oddEvenList(linkedList)
 //printLinkedList(oddEven)
-
 //let reverse = reverseList(linkedList)
 //printLinkedList(reverse)
+//print(pairSum(linkedList))
 
-print(pairSum(linkedList))
+let values = [3,9,20,nil,nil,15,7]
+let node = createTreeNode(values)
+print(maxDepth(node))
