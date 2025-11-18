@@ -96,7 +96,9 @@ import Foundation
 //let node = createTreeNode(values)
 //print(maxDepth(node))
 
-let root = [1,7,0,7,-8,nil,nil]
+let root = [5,3,6,2,4,nil,7]
 let node = createTreeNode(root)
 //print(rightSideView1(node))
-print(maxLevelSum(node))
+//print(maxLevelSum(node))
+
+//print(searchBST1(node, 2))
