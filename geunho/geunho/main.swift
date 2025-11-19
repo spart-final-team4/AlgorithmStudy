@@ -102,3 +102,6 @@ let node = createTreeNode(root)
 //print(maxLevelSum(node))
 
 //print(searchBST1(node, 2))
+
+//print(canVisitAllRooms([[1],[2],[],[3]]))
+print(findCircleNum([[1,1,0],[1,1,0],[0,0,1]]))
