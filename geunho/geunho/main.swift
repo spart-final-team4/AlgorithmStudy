@@ -105,3 +105,6 @@ let node = createTreeNode(root)
 
 //print(canVisitAllRooms([[1],[2],[],[3]]))
 print(findCircleNum([[1,1,0],[1,1,0],[0,0,1]]))
+
+print(shuffle([2,5,1,3,4,7], 3))
+print(findMaxConsecutiveOnes([1,1,0,1,1,1]))
